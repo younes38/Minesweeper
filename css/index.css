@@ -1,0 +1,89 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box ;
+    transition: all 0.7s ;
+}
+header {
+    background: #00539C ;
+    text-align: center ;
+    
+    height: 150px ;
+    
+        
+}
+
+header > div {
+    color: white ;
+    font-family: cursive ;
+    font-size: 50px ;
+}
+.niveau {
+    background: white;
+    height: auto ;
+    text-align: center ;
+}
+.button {
+    border: 2px solid #00539C ; 
+    color:white ;
+    display: inline-block ; 
+    background: #00539C ;
+    font-size: 20px ;
+    margin: 0;
+    font-family: cursive ;
+    transition: all 0.3s ease ;
+}
+
+.button:hover {
+    background: rgb(32, 121, 199) ;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto ;
+}
+
+.lastGames {
+    height: 200px;
+    overflow-y: scroll ;
+    width: 30%;
+    color: white ;
+    background : #00539C;
+    font-family: cursive ;
+    float: left;
+}
+.game {
+    background : #00539C;
+    height: 200px ;
+    width: 200px ;
+    display: inline-block;
+}
+
+.btn {
+    background : #ddd;
+    border: 0.5px solid rgb(255, 255, 255) ;
+    height: 10%;
+    width: 10%;
+    padding: 0 ;
+    color: #dddddd ;
+    margin: 0 ;
+    transition: all 0.2s ;
+    
+}
+.btn:hover {
+    background: #bbb ;
+    color: #bbb
+ ;}
+
+footer {
+    clear: both ;
+}
+
+footer > div {
+    font-family: cursive ;
+    background : black;
+    color: white ;
+}
+.btn_div {
+    display: inline-block ;
+}
